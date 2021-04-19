@@ -52,11 +52,11 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-    # 'gb_parse.middlewares.GbParseDownloaderMiddleware': 543,
-    "rotating_proxies.middlewares.RotatingProxyMiddleware": 610,
-    "rotating_proxies.middlewares.BanDetectionMiddleware": 620,
-}
+# DOWNLOADER_MIDDLEWARES = {
+#     # 'gb_parse.middlewares.GbParseDownloaderMiddleware': 543,
+#     "rotating_proxies.middlewares.RotatingProxyMiddleware": 610,
+#     "rotating_proxies.middlewares.BanDetectionMiddleware": 620,
+# }
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -96,6 +96,6 @@ AUTOTHROTTLE_DEBUG = True
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-ROTATING_PROXY_LIST_PATH = (
-    "/Users/gefest/projects/geekbrains/data_mining/datamining_29_03_2021/proxies"
-)
+# ROTATING_PROXY_LIST_PATH = (
+#     "/Users/gefest/projects/geekbrains/data_mining/datamining_29_03_2021/proxies"
+# )
